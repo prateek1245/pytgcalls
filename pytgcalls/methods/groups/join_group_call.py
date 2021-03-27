@@ -57,7 +57,7 @@ class JoinGroupCall(SpawnProcess):
                         }),
                     ),
                 )
-            Exception as e:
+            except Exception as e:
                      print(e)
         else:
             code_err = 'PYROGRAM_CLIENT_IS_NOT_RUNNING'
